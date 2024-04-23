@@ -1,3 +1,5 @@
 yolov8x.pt
 models/best.pt 
+models/bestest.pt
+output_videos
 training/football-players-detection-1
