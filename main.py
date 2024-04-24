@@ -8,6 +8,9 @@ def main():
     tracker = Tracker('models/bestest.pt')
     tracks = tracker.get_object_tracks(video_frames,read_from_stub=True,stub_path='stubs/track_stubs.pkl')
     
+    #interpolate ball positions
+    
+    tracks['ball'] = tracker.interpolate_ball_positions(tracks['ball'])
     team_assigner = TeamAssigner()
     team_assigner.assign_team_color(video_frames[0], 
                                     tracks['players'][0])
