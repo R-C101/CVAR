@@ -10,9 +10,11 @@ def main():
     save_video(video_frames, 'output_videos/outputvideo.avi')
     tracker = Tracker('models/bestest.pt')
     tracks = tracker.get_object_tracks(video_frames,read_from_stub=True,stub_path='stubs/track_stubs.pkl')
+    
+    tracker.add_position_to_tracks(tracks)
     camera_movement_estimator = CameraMovementEstimator(video_frames[0])
     camera_movement_per_frame = camera_movement_estimator.get_camera_movement(video_frames,read_from_stub=True,stub_path='stubs/camera_movement_stub.pkl')
-    
+    camera_movement_estimator.add_adjust_positions_to_tracks(tracks,camera_movement_per_frame)
     #interpolate ball positions
     
     tracks['ball'] = tracker.interpolate_ball_positions(tracks['ball'])
