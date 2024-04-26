@@ -4,3 +4,5 @@ models/bestest.pt
 output_videos/ankaramessi.avi
 output_videos/outputvideo.avi
 training/football-players-detection-1
+input_videos/ankaramessi.mp4
+input_videos/wcfinal.mp4
