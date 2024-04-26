@@ -1,5 +1,6 @@
 yolov8x.pt
 models/best.pt 
 models/bestest.pt
-output_videos
+output_videos/ankaramessi.avi
+output_videos/outputvideo.avi
 training/football-players-detection-1
