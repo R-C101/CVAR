@@ -23,9 +23,16 @@ To get Started:
 
 
 The provided stub files are for the default input video.
-The code mentions read_from_stub = False. 
+The code mentions 
+```python
+read_from_stub = False
+```
 
-If you want to save computation time remove the stubs in the stubs folder and put read_from_stubs = True in the main.py file.
+If you want to save computation time remove the stubs in the stubs folder and put 
+```python
+read_from_stub = True
+```
+ in the main.py file.
 
 After the first run if you want to run the files again, the object tracking for the file will be saved in stubs and you will save a lot fo computation time for the second run.
 
@@ -52,12 +59,8 @@ Put the model inside the models directory after the training.
 
 ## Usage/Examples
 
-```javascript
-import Component from 'my-project'
-
-function App() {
-  return <Component />
-}
+```python
+read_from_stub = True
 ```
 
 
