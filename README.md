@@ -21,6 +21,7 @@ To get Started:
   git clone https://github.com/R-C101/CVAR.git
 ```
 
+Get the model from Here:[Model 100 epochs](https://drive.google.com/file/d/1-5fOSHOSB9UXyP_enOoZNAMScrePVcMD/view?usp=sharing)
 
 The provided stub files are for the default input video.
 The code mentions 
