@@ -50,13 +50,9 @@ Put the model inside the models directory after the training.
 2. Ensure that the player_id doesnt go above 30
 
 
-
-
-
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
+![Output Screenshot](Ouput.png)
 
 ## Usage/Examples
 
