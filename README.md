@@ -54,11 +54,6 @@ Put the model inside the models directory after the training.
 
 ![Output Screenshot](Ouput.png)
 
-## Usage/Examples
-
-```python
-read_from_stub = True
-```
 
 
 
