@@ -8,7 +8,7 @@ The CVAR is a comprehensive application designed to revolutionize the way footba
 - Ball possession Tracker
 - Player Speed and Distance Travelled Estimator
 - Camera Movement Tracker
-- Ball Interpolation
+- Ball Interpolation.
 
 
 ## Installation
